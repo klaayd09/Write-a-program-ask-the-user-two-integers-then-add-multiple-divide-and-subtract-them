@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()  
+{  
+    int num1, num2;  
+    int sum, mult,div,sub;  
+     
+  
+    printf("Inter any 2 integer : ");  
+    scanf("%d,%d", &num1, &num2);  
+    
+    sum = num1 + num2;  
+ 
+    mult = num1 * num2;  
+    div = num1 / num2;  
+    sub = num1 - num2; 
+    
+    printf("ADD : %d\n", sum);  
+    printf("MUL : %d\n", mult);  
+    printf("DIV : %d\n", div); 
+    printf("SUB : %d\n", sub);
+   
+  
+    return 0;   
+}
